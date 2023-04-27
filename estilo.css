@@ -14,10 +14,10 @@ h2 {
 figure {
     /*display: block;
     width: auto;
-    height: auto;
-    text-align: center;*/
+    height: auto;*/
+    text-align: center;
     background-position: center;
     background-color:whitesmoke;
-    font-display: lightgrey;
+    font: lightgrey;
 }
 
