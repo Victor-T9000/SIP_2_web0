@@ -12,7 +12,10 @@ h2 {
 }
 
 figure {
-    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+    /*text-align: center;*/
     color:whitesmoke;
     font-display: lightgrey;
 }
