@@ -16,7 +16,7 @@ figure {
     width: auto;
     height: auto;
     /*text-align: center;*/
-    color:whitesmoke;
+    border-color:whitesmoke;
     font-display: lightgrey;
 }
 
