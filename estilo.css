@@ -39,3 +39,23 @@ figure {
 figure img {
     width: 100%;
 }
+.div_contatos{
+    padding: 10px;
+}
+.padrão1{
+    width: 500px;
+    height: 30px;
+}
+.padrão2{
+	placeholder:
+    text-align: top;
+    width: 500px;
+    height: 300px;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    background: white;
+    font-weight: bold;
+}
+
