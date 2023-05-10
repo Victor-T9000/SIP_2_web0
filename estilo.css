@@ -26,4 +26,16 @@ figure {
     padding: 15px;
     margin-top: 10px;
 }
+.figure1 {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.figure2 {
+    width: 275px;
+    float: right;
+}
+figure img {
+    width: 100%;
+}
