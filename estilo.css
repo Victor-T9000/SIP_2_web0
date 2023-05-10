@@ -5,12 +5,12 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-h1 {
+.h1 {
     padding: 10px
     color:  #3D3D3D;
     background-color: #E1EDF2;
 }
-h2 {
+.h2 {
     border-bottom: 2px solid black;
 }
 
