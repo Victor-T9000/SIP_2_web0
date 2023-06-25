@@ -42,6 +42,7 @@ figure img {
 
 
 
+
 /*    contatos    */
 .div_contatos{
     padding: 10px;
@@ -73,6 +74,8 @@ input:invalid {
   }
 input:focus:invalid {
     box-shadow: none;
-  }   
-  
+  }   <<<<<<< HEAD
+
+=======
+  >>>>>>> 699eaf4488e67c06a306fd24af722a4d5b09a6cf
 */
