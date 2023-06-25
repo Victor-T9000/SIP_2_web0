@@ -18,13 +18,13 @@
 
 			
 			if (nome === " " || nome.length < 10) {
-				alert("verificar se está vazio, e tem no minimo 10 caracteres");
+				alert("nome - verificar se está vazio, e tem no minimo 10 caracteres");
 				return false; 
 			}
 
 			
-			if (telefone === " " || telefone.length !== 10) {
-				alert("verificar se está vazio, e tem exatamente 10 caracteres");
+			if (telefone === " " || telefone.length !== 10 || isNaN(telefone)) {
+				alert("telefone - verificar se está vazio, e tem exatamente 10 caracteres");
 				return false; 
 			}
 
@@ -32,13 +32,13 @@
 			//var emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 			//if (email === " " || !email.match(emailRegex)) {
             if (email === " " || /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
-				alert("verificar se está vazio, e se é um e-mail no formato válido");
+				alert("email - verificar se está vazio, e se é um e-mail no formato válido");
 				return false;
 			}
 
 			
 			if (opniao === " " || opniao.length < 10 || opniao.length > 50) {
-				alert("verificar se está vazio, e tem no minimo  10 caracteres e no máximo 50");
+				alert("opniao - verificar se está vazio, e tem no minimo  10 caracteres e no máximo 50");
 				return false; // Impede o envio do formulário
 			}
 
