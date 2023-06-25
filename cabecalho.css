@@ -8,8 +8,8 @@ header {
    
    }
 a {
-    color:0;
-    text-decoration:0;
+    color:inherit;
+    text-decoration:inherit;
    }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
